@@ -4,12 +4,35 @@ html {
 }
 
 body {
+    background-color: orange;
+    color: rgb(252, 252, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
-    color: black;
-    min-height: 100%;
+    padding: 5px;
+    word-spacing: 500px;
 
 }
 
+nav a {
+    text-decoration: white;
+    color: rgb(71, 7, 114);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ae00ff;
+    text-decoration: underline;
+    cursor: crosshair; 
+
+   }
 
 
 header {
