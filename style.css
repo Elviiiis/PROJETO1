@@ -34,14 +34,14 @@ iframe {
 
 }
 
- header {
-     color: rgb(255, 255, 255);
-     text-align: unset;
-     background-color:black;
-     background-repeat: no-repeat;
-     background-size: 100%;
-     padding: 20px;
- }
+header {
+    color: rgb(255, 255, 255);
+    text-align: unset;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
 
  nav {
      display: flex;

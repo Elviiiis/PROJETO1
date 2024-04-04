@@ -18,8 +18,8 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin: 0px;
  }
-
 nav {
     display: flex;
     justify-content: center;
