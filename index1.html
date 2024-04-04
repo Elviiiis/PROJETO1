@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index1.css">
+    <title>Contato</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 
+<header>
+    <h1>SITE SITE ERON DOMINGUES</h5>
+</header>
+
+<nav id="teste">
+    <ul class="MENU">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="index1.html">Video</a>
+    </ul>
+</nav>
+</section>
+
 <body>
-    <Header>
-        <h1>Eron Domingues - Teste Site Escola - videos
-        </h1>
-        <p>Melhores Rages </p>
-    </Header>
-    <main>
-        <section>
-            <h2>Crazy Frog</h2>
-            <iframe width="1262" height="710" src="https://www.youtube.com/embed/GS5K5MbSSOI"
-                title="Rap do Minecraft (Meme)" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </section>
+    <form>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name" required>
 
-        <section>
-            <h2>Godzilla dançarino</h2>
-            <iframe width="1262" height="710" src="https://www.youtube.com/embed/7G4RYtP5RQQ"
-                title="Happy to the Birthday Alex! (Godzilla Dance)" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </section>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
 
-        <section>
-            <h2>Crazy Frog</h2>
-            <iframe width="1262" height="710" src="https://www.youtube.com/embed/k85mRPqvMbE"
-                title="Crazy Frog - Axel F (Official Video)" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </section>
-    </main>
+        <label for="message">Mensagem: </label>
+        <textarea name="message" id="message" rows="5"></textarea>
+       
+        <label for="Senha">Senha: </label>
+        <input type="password" id="Senha" rows="5"></input>
+        
+        <label for="Número">Número: </label>
+        <input type="number" id="Número" pattern="[0 9]*"></input>
 
-    <footer>
-        Elvis 2° T.D.S
-
-
-    </footer>
-
+        <label for="Número">Número: </label>
+        <input type="Number" name="Número" pattern=""></input>
+        
+        
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 
 </html>
