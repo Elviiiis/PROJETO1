@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+
+body {
+    display: table;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0px ;
+    text-align: center;
+    color: white;
+    background: url(https://cdn.akamai.steamstatic.com/steam/apps/1966720/capsule_616x353.jpg?t=1700231592) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: 0px;
+ }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    word-spacing: 500px;
+
+}
+
+
+ nav a {
+     text-decoration: white;
+     color: rgb(255, 0, 0);
+     margin: 0 15px;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     color: #ff0000;
+     text-decoration: underline;
+     cursor: crosshair; 
+
+    }
+
+
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px   ;
+    text-align: center;
+
+}
+
+
+iframe {
+    width: 95%;
+    height: 600px;
+    border-radius: 50px;
+
+}
+
+p {
+    font-size: 50px;
+}
